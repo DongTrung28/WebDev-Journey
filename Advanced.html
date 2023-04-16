@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="Advanced.css">
+    </head>
+    <body>
+        <div>
+            <h1 style="font-family: 'Product Sans', Arial, sans-serif; font-size: 80px; color: rgb(47, 113, 255); letter-spacing: -1px; margin: 0; padding: 0;">TRUN<span style="color: green;" >G</span><span style="color: #DB4437;">L</span><span style="color: #F4B400;">E</span></h1>
+            <form action="https://www.google.com/search" method="GET">
+                <label for="all-words" class="input-label">All these words: </label>
+                <input type="text" class="input-field" name="as_q" id="all-words" placeholder="Type your search terms...">
+                <br>
+                <br>
+                <label for="exact-phrase" class="input-label">This exact word or phrase: </label>
+                <input type="text" class="input-field" name="as_epq" id="exact-phrase" placeholder="Type your search terms...">
+                <br>
+                <br>
+                <label for="any-words" class="input-label">Any of these words: </label>
+                <input type="text" class="input-field" name="as_oq" id="any-words" placeholder="Type your search terms...">
+                <br>
+                <br>
+                <label for="none-words" class="input-label">None of these words: </label>
+                <input type="text" class="input-field" name="as_eq" id="none-words" placeholder="Type your search terms...">
+                <br>
+                <br>
+                <button type="submit" class="search-button">Advanced Search</button>
+            </form>
+        </div>
+        <div class="org">
+            <button id="adv">
+                <a href="index.html" target="_self">Trungle Search</a>
+            </button>
+            <button id="img">
+                <a href="ImagerySearch.html" target="_self">Trungle Image Search</a>
+            </button>
+        </div>
+    </body>
+</html>
